@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student|profile</title>
+</head>
+<body style="font-family: Arial, Helvetica, sans-serif;margin: 20px;">
+    <div style="max-width: 600px; margin: 0 auto;">
+        <h2 style="text-align: center;">Create Profile</h2>
+        <form action="#" method="post">
+            <div style="margin-bottom: 3px;">
+                <label for="fName" style="padding: 32px;"><b>First Name:</b></label>
+                <input type="text" id="fName" name="firstName" placeholder="First Name">
+            </div>
+            <div style="margin-bottom: 3px;">
+                <label for="lName" style="padding: 33px;"><b>Last Name:</b></label>
+                <input type="text" id="lName" name="lName" placeholder="Last Name">
+            </div>
+            <div style="margin-bottom: 3px;">
+                <label for="dob" style="padding: 26px;"><b>Date of Birth:</b></label>
+                <input type="date" id="dob" name="dob" placeholder="dd/mm/yyyy">
+            </div>
+            <div style="margin-bottom: 3px;">
+                <label for="age" style="padding: 38px;"><b>Enter age:</b></label>
+                <input type="number" id="age" name="age" placeholder="Age">
+            </div>
+                <div style="margin-bottom: 3px;">
+                    <label style="padding: 46px;"><b>Gender:</b></label>
+                    <label"><input type="radio" name="gender" value="Male" checked> Male</label>
+                    <label><input type="radio" name="gender" value="Female"> Female</label>
+                </div>
+            <div style="margin-bottom: 3px;">
+                <label for="caddress" style="padding: 12px;"><b>Current Address:</b></label>
+                <textarea id="caddress" name="caddress" rows="10" cols="50"></textarea>
+            </div>
+            <div style="margin-bottom: 3px;">
+                <label for="paddress"><b>Permanent Address:</b></label>
+                <textarea id="paddress" name="paddress" rows="10" cols="50"></textarea>
+            </div>
+            <input type="submit" value="Create" style="margin-left: 260px;">
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,9 @@
+*{
+    color: blue;
+    text-align: right;
+}
+address,p,body,h1,h4{
+    font-size: large;
+    font-weight: 1000;
+    color: brown;
+}
